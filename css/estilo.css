@@ -1,5 +1,4 @@
 html{
-    display: flex;
     margin-left: auto;
     margin-right: auto;   
     width: 980px
@@ -88,7 +87,6 @@ header{
     
     font-family: Arial;
     color: #660000;
-    margin-top: 2em;
     margin-left: 1em;
     border-bottom: #660000 3.5px solid;
     display: inline;
@@ -97,7 +95,6 @@ header{
     
 }
 
-
 #imagem_drone_titulo_loja_virtual{
     width: 125px;
     height: 77px;
@@ -105,6 +102,65 @@ header{
     margin-top: 2em;
 }
 
+
 .loja_virtual_cards{
-    display: inline;
+    margin-top: 0.75em;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    
+}
+
+.loja_virtual_drone_sem_destaque{
+    
+    height: 376px;
+    width: 278px;
+    border: 1px solid #4d9ea5;
+    margin-top: 2.5em;
+  
+}
+
+
+.titulo_loja_drone_sem_destaque {
+   color: #1B8E99; 
+   background-color: #4d9ea5;
+   text-align: center;
+   margin-top: 0;
+}
+
+
+.img_loja_drone_sem_destaque{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.texto_loja_virtual_loja_sem_destaque{
+    
+}
+
+.loja_virtual_drone_com_destaque{
+    
+    height: 376px;
+    width: 278px;
+    border: 1px solid #660000;
+    margin-top: 2.5em; 
+}
+
+
+.titulo_loja_drone_com_destaque {
+   color: black;
+   background-color: #660000;
+   text-align: center;
+   margin-top: 0;
+}
+
+
+.img_loja_drone_com_destaque{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.texto_loja_virtual_loja_com_destaque{
+    
 }

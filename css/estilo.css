@@ -1,6 +1,8 @@
 html{
     display: flex;
-    justify-content: center;    
+    margin-left: auto;
+    margin-right: auto;   
+    width: 980px
 }
 
 header{
@@ -14,20 +16,30 @@ header{
 }
 
 .cabecalho_cima {
-    width: 980px;
+    
     height: 45px;
     background-color: #1B8E99;
     font-family: Arial;
+    
+    
+}
 
+.cabecalho_cima ul{
+    
+    float: right;
+    
 }
 
 .cabecalho_cima li{
     display: inline;
-    margin: 0 4px 0 4px;
+    padding: 0.25em;
+    
+    
 
 }
 
 .cabecalho_cima a{
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
@@ -35,21 +47,31 @@ header{
 
 }
 
+ #destaque_nav{
+    background-color: #92c9ce; 
+}
+
+
 .cabecalho_baixo {
+
     width: 980px;
     height: 45px;
     background-color: #660000;
     font-family: Arial;
-
-}
-
-#banner_principal{
     
 }
 
+.cabecalho_baixo ul{
+    
+}
+
+
+
 .cabecalho_baixo li{
     display: inline;
-    margin: 0 4px 0 4px;
+    
+    padding: 0.25em;
+    
 
 }
 
@@ -61,3 +83,28 @@ header{
 
 }
 
+
+#titulo_loja_virtual{
+    
+    font-family: Arial;
+    color: #660000;
+    margin-top: 2em;
+    margin-left: 1em;
+    border-bottom: #660000 3.5px solid;
+    display: inline;
+    width: 800px;
+    padding-right: 65%
+    
+}
+
+
+#imagem_drone_titulo_loja_virtual{
+    width: 125px;
+    height: 77px;
+    display: inline;
+    margin-top: 2em;
+}
+
+.loja_virtual_cards{
+    display: inline;
+}

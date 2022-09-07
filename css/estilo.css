@@ -68,9 +68,7 @@ header{
 
 .cabecalho_baixo li{
     display: inline;
-    
     padding: 0.25em;
-    
 
 }
 
@@ -124,7 +122,7 @@ header{
 
 .titulo_loja_drone_sem_destaque {
    color: #1B8E99; 
-   background-color: #4d9ea5;
+   background-color: #a0c8cc;
    text-align: center;
    margin-top: 0;
 }
@@ -136,7 +134,43 @@ header{
 }
 
 .texto_loja_virtual_loja_sem_destaque{
+    color: #1B8E99;
+    font-size: 14px;
+    text-align: center;
+}
+
+.valores_loja_virtual_loja_sem_destaque{
+    background-color: #1B8E99;
+    height: 110px;
     
+}
+
+.preco_loja_virtual_loja_sem_destaque{
+    font-size: 26px;
+    color: white;
+    float: left;
+    padding-left: 00.25em;
+    margin-left: 1em;
+}
+
+.preco_parcelado_loja_virtual_loja_sem_destaque{
+    font-size: 16px;
+    color:white;
+    margin-top: 3.5em;
+    margin-left: -8em;
+    float: left;
+    
+}
+
+.imagem_carrinho_loja_virtual{
+    max-width: 50px;
+    max-height: 50px;
+    float: right;
+    margin-top: 2em;
+    margin-right: 1em;
+    background-color: white;
+
+
 }
 
 .loja_virtual_drone_com_destaque{
@@ -163,4 +197,26 @@ header{
 
 .texto_loja_virtual_loja_com_destaque{
     
+}
+
+.valores_loja_virtual_loja_com_destaque{
+    background-color: #660000;
+    height: 110px;
+}
+
+.preco_loja_virtual_loja_com_destaque{
+    font-size: 26px;
+    color: white;
+    float: left;
+    padding-left: 00.25em;
+    margin-left: 1em;
+
+}
+
+.preco_parcelado_loja_virtual_loja_com_destaque{
+    font-size: 16px;
+    color:white;
+    margin-top: 3.5em;
+    margin-left: -8.90em;
+    float: left;
 }

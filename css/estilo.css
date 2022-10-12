@@ -45,36 +45,14 @@ header{
     font-size: 12px;
 
 }
+#banner_principal{
+
+    width: 100%;
+    height: 380px
+}
 
  #destaque_nav{
     background-color: #92c9ce; 
-}
-
-
-.cabecalho_baixo {
-
-    width: 980px;
-    height: 45px;
-    background-color: #660000;
-    font-family: Arial;
-    margin-top: -1.2em;
-    
-}
-
-
-
-.cabecalho_baixo li{
-    display: inline;
-    padding: 0.25em;
-
-}
-
-.cabecalho_baixo a{
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-
 }
 
 
@@ -96,22 +74,50 @@ header{
     height: 77px;
     display: inline;
     margin-top: 2em;
+    
 }
+.text_drone_irrigação{
+    border: 1px solid black;
+}
+
+.text_drone_irrigação p{
+    font-size: 18px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text_drone_irrigação h2{
+    font-family: Arial;
+    color: #660000;
+    text-align: center;
+    
+}
+.text_drone_irrigação ul{
+    text-align: center;
+    
+}
+
+.text_drone_irrigação li{
+    
+    font-size: 18px;
+    list-style-type: none;
+}
+
+
 
 
 .loja_virtual_cards{
     margin-top: 0.75em;
     display: flex;
     justify-content: space-between;
-    
     align-items: center;
-    
+    border-bottom: 2px solid black;
 }
 
 .loja_virtual_drone_sem_destaque{
     
-    height: 376px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     border: 1px solid #4d9ea5;
     margin-top: 2.5em;
   
@@ -128,8 +134,8 @@ header{
 
 
 .img_loja_drone_sem_destaque{
-    max-width: 250px;
-    max-height: 250px;
+    height: 100%;
+    width: 100%;
     margin-left: 1.3em;
   
 }
@@ -154,30 +160,11 @@ header{
     margin-left: 1em;
 }
 
-.preco_parcelado_loja_virtual_loja_sem_destaque{
-    font-size: 16px;
-    color:white;
-    margin-top: 3.5em;
-    margin-left: -8em;
-    float: left;
-    
-}
-
-.imagem_carrinho_loja_virtual{
-    max-width: 50px;
-    max-height: 50px;
-    float: right;
-    margin-top: 2em;
-    margin-right: 1em;
-    background-color: white;
-
-
-}
 
 .loja_virtual_drone_com_destaque{
     
-    height: 376px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     border: 1px solid #660000;
     margin-top: 2.5em; 
 }
@@ -194,8 +181,8 @@ header{
 
 
 .img_loja_drone_com_destaque{
-    max-width: 250px;
-    max-height: 250px;
+    width: 100%;
+    height: 100%;
     margin-left: 1.3em;
 }
 
@@ -207,7 +194,7 @@ header{
 
 .valores_loja_virtual_loja_com_destaque{
     background-color: #660000;
-    height: 126px;
+    height: 110px;
 }
 
 .preco_loja_virtual_loja_com_destaque{
@@ -219,18 +206,7 @@ header{
 
 }
 
-.preco_parcelado_loja_virtual_loja_com_destaque{
-    font-size: 16px;
-    color:white;
-    margin-top: 3.5em;
-    margin-left: -8.90em;
-    float: left;
-}
 
-.servicos{
-
-
-}
 
 #titulo_servicos{
     font-family: Arial;
@@ -255,6 +231,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 3px solid black;
 }
 
 
@@ -310,7 +287,7 @@ header{
 .rodape_drones{
     display: flex;
     margin-top: 5em;
-    justify-content: flex-start;
+    justify-content: space-around;
 
 }
 .rodape_drones img {

@@ -77,7 +77,15 @@ header{
     
 }
 .text_drone_irrigação{
+    font-family: 'Roboto', sans-serif;
     border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 1em;
+    background-color: #1B8E99;
+    color: white;
+    
+
 }
 
 .text_drone_irrigação p{
@@ -87,6 +95,9 @@ header{
     margin-right: auto;
 }
 .text_drone_irrigação h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 30px;
     font-family: Arial;
     color: #660000;
     text-align: center;
